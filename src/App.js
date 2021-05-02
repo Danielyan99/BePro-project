@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from "react-router-dom"
+import CatalogContainer from "./components/catalog/CatalogContainer"
+import Header from "./components/common/header/Header"
+import HomeContainer from "./components/home/HomeContainer"
+import ProductContainer from "./components/product/ProductContainer"
+
+const { Route } = require("react-router")
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className='App'>
+        <Header />
+        <Route path='/' exact component={HomeContainer} />
+        <Route path='/catalog' component={CatalogContainer} />
+        <Route path='/product' component={ProductContainer} />
+      </div>
+    </Router>
+  )
 }
 
-export default App;
+export default App
