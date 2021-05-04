@@ -3,6 +3,7 @@ export default [
   {
     id: 1,
     title: "Essential cotton-blend",
+    img: 1,
     price: 200,
     discountedPrice: 100,
     rating: 4,
@@ -14,6 +15,7 @@ export default [
   {
     id: 2,
     title: "Flecked cotton-blend",
+    img: 2,
     price: 175,
     discountedPrice: false,
     rating: 3,
@@ -25,6 +27,7 @@ export default [
   {
     id: 3,
     title: "Striped cotton t-shirt",
+    img: 3,
     price: 200,
     discountedPrice: false,
     rating: 5,
@@ -36,6 +39,7 @@ export default [
   {
     id: 4,
     title: "V-neck cotton t-shirt",
+    img: 4,
     price: 100,
     discountedPrice: false,
     rating: 4.5,
@@ -47,6 +51,7 @@ export default [
   {
     id: 5,
     title: "Message cotton t-shirt",
+    img: 5,
     price: 100,
     discountedPrice: false,
     rating: 5,
@@ -58,6 +63,7 @@ export default [
   {
     id: 6,
     title: "Sequin star t-shirt",
+    img: 6,
     price: 200,
     discountedPrice: 100,
     rating: 4.5,
@@ -69,6 +75,7 @@ export default [
   {
     id: 7,
     title: "Ruffle sleeve t-shirt",
+    img: 7,
     price: 175,
     discountedPrice: false,
     rating: 3.5,
@@ -80,6 +87,7 @@ export default [
   {
     id: 8,
     title: "Double layer top",
+    img: 8,
     price: 200,
     discountedPrice: false,
     rating: 4,
@@ -91,6 +99,7 @@ export default [
   {
     id: 9,
     title: "Nike Dry Swoosh",
+    img: 9,
     price: 200,
     discountedPrice: 100,
     rating: 4.5,
@@ -102,6 +111,7 @@ export default [
   {
     id: 10,
     title: "football shirt",
+    img: 10,
     price: 300,
     discountedPrice: 150,
     rating: 4,
@@ -113,6 +123,7 @@ export default [
   {
     id: 11,
     title: "fragrence shirt",
+    img: 11,
     price: 200,
     discountedPrice: false,
     rating: 4,
@@ -124,6 +135,7 @@ export default [
   {
     id: 12,
     title: "good shoes",
+    img: 12,
     price: 120,
     discountedPrice: false,
     rating: 3.5,
@@ -135,6 +147,7 @@ export default [
   {
     id: 13,
     title: "accesories1",
+    img: 13,
     price: 60,
     discountedPrice: false,
     rating: 4,
@@ -146,6 +159,7 @@ export default [
   {
     id: 14,
     title: "scarves1",
+    img: 14,
     price: 130,
     discountedPrice: false,
     rating: 5,
@@ -157,6 +171,7 @@ export default [
   {
     id: 15,
     title: "clothing shirt",
+    img: 15,
     price: 70,
     discountedPrice: false,
     rating: 5,
@@ -168,6 +183,7 @@ export default [
   {
     id: 16,
     title: "clothing shirt2",
+    img: 16,
     price: 70,
     discountedPrice: false,
     rating: 5,
@@ -179,6 +195,7 @@ export default [
   {
     id: 17,
     title: "training 1",
+    img: 17,
     price: 70,
     discountedPrice: false,
     rating: 2,
@@ -190,6 +207,7 @@ export default [
   {
     id: 18,
     title: "training 2",
+    img: 18,
     price: 105,
     discountedPrice: 80,
     rating: 2,
@@ -201,6 +219,7 @@ export default [
   {
     id: 19,
     title: "lifestyle 1",
+    img: 19,
     price: 135,
     discountedPrice: false,
     rating: 3,
@@ -212,6 +231,7 @@ export default [
   {
     id: 20,
     title: "lifestyle 2",
+    img: 20,
     price: 135,
     discountedPrice: false,
     rating: 3,
@@ -223,6 +243,7 @@ export default [
   {
     id: 21,
     title: "running 1",
+    img: 21,
     price: 60,
     discountedPrice: false,
     rating: 4.5,
@@ -234,6 +255,7 @@ export default [
   {
     id: 22,
     title: "running 2",
+    img: 22,
     price: 80,
     discountedPrice: false,
     rating: 5,
@@ -245,6 +267,7 @@ export default [
   {
     id: 23,
     title: "accesories 2",
+    img: 23,
     price: 95,
     discountedPrice: 80,
     rating: 5,
@@ -256,6 +279,7 @@ export default [
   {
     id: 24,
     title: "clothing 2",
+    img: 24,
     price: 95,
     discountedPrice: 80,
     rating: 1,
@@ -267,6 +291,7 @@ export default [
   {
     id: 25,
     title: "clothing 3",
+    img: 25,
     price: 130,
     discountedPrice: false,
     rating: 2.5,

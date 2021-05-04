@@ -2,7 +2,7 @@ import HeaderSlider from "../common/header/HeaderSlider"
 import Banner from "./Banner"
 import Blog from "./Blog"
 import Features from "./Features"
-import HomeCatalog from "./HomeCatalog"
+import HomeCatalogContainer from "./HomeCatalogContainer"
 import HomeProducts from "./HomeProducts"
 import PartnersSlider from "../common/PartnersSlider"
 import Footer from "../common/Footer"
@@ -12,7 +12,7 @@ const Home = () => {
     <div className='home'>
       <HeaderSlider />
       <Features />
-      <HomeCatalog />
+      <HomeCatalogContainer />
       <Banner />
       <HomeProducts />
       <Blog />
