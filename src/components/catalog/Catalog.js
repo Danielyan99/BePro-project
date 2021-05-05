@@ -3,6 +3,7 @@ import CatalogInner from "./CatalogInner"
 import Banner from "../home/Banner"
 import PartnersSlider from "../common/PartnersSlider"
 import Footer from "../common/Footer"
+import CatalogContent from "./CatalogContent"
 
 const Catalog = ({ catalog }) => {
   // console.log(catalog)
@@ -10,7 +11,7 @@ const Catalog = ({ catalog }) => {
     <div className='catalog'>
       <Pathway />
       <CatalogInner />
-      Catalog
+      <CatalogContent />
       <Banner />
       <PartnersSlider />
       <Footer />
